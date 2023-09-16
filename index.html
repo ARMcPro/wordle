@@ -6,7 +6,7 @@
     <title>Wordle Solver</title>
     <style>
         body {
-            font-size: 1vmax;
+            font-size: 2vh;
             background-color: #121213;
             color: white;
             font-weight: bold;
@@ -18,11 +18,11 @@
             align-items: center;
         }
         .char-input {
-            width: 4vmax;
-            height: 4vmax;
+            width: 7vh;
+            height: 7vh;
             text-align: center;
             font-weight: bold;
-            font-size: 2.5vmax;
+            font-size: 4vh;
             border: 0.1vmax solid rgb(58, 58, 60);
             color: white;
             margin: 0.2vmax;
@@ -33,13 +33,13 @@
         }
         button {
             padding: 2px;
-            width: 8vmax;
-            height: 5vmax;
+            width: 16vh;
+            height: 9vh;
             border: none;
             margin: 1vmax;
             color: white;
             font-weight: bold;
-            font-size: 1.1vmax;
+            font-size: 2vh;
         }
         button:hover {
             filter: brightness(80%);
@@ -57,7 +57,7 @@
         <button id="submit" style="background-color: #6699CC;">SUBMIT</button>
         <button id="clear" style="background-color: #E3242B;">CLEAR</button>
     </div>
-    <p id="answer" style="max-width: 50vmax; white-space: pre-wrap; font-size: 1.5vmax;"></p>
+    <p id="answer" style="max-width: 50vmax; white-space: pre-wrap; font-size: 2.5vh;"></p>
     
     <script>
         document.getElementById("clear").addEventListener("click", function() {
